@@ -15,7 +15,7 @@ exports.registerjob = (req,res)=>{
                 return res.status(200).json({message:"job created"})
             }
             else{
-                return res.status(400).json({message:"Unable to create job.."})
+                return res.status(400).json({message:"Unable to create job..............."})
             }
         })
 
