@@ -12,7 +12,7 @@ exports.registerjob = (req,res)=>{
         let newJob = Job(req.body)
         newJob.save().then((newJob)=>{
             if(newJob){
-                return res.status(200).json({message:"job created."})
+                return res.status(200).json({message:"job created.."})
             }
             else{
                 return res.status(400).json({message:"Unable to create job..............."})
